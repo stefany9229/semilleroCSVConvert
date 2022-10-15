@@ -1,9 +1,9 @@
 <img align="right" src="https://github.com/ada-school/module-template/blob/main/ada.png">
 
 
-## <REPLACE WITH CODELAB NAME>
+## CSV Reader with Java
 
-<Replace with codelab descrition>
+Use Java to create a CSV Reader library.
 
 **Learning Objectives**
 
@@ -43,17 +43,20 @@ Crafting a library requires detail orientation. Make sure you consider all the e
 
 ### Part 2: Using Maven to avoid re-inventing the wheel:
 
-1. Read the following articel to understand how to add *Maven* to the Java project
+1. Read the following article to understand how to add *Maven* to the Java project
   * <a target="_blank" href="https://www.jetbrains.com/help/idea/convert-a-regular-project-into-a-maven-project.html#add_maven_support">Add Maven Support</a>
-2. Once you project has the Maven include import the following library into your depenedencies: 
+
+2. Once your project has the Maven include import the following library into your dependencies:
+
   * <a target="_blank" href="https://mvnrepository.com/artifact/com.opencsv/opencsv/5.7.0">MVN Repository Open CSV</a>
 
-3. Read the Open CSV documentation to undertand how to use the CSV library:
+3. Read the Open CSV documentation to understand how to use the CSV library:
   * <a target="_blank" href="https://opencsv.sourceforge.net/index.html">Open CSV Documentation</a>
 4. Modify your code to use the Open CSV library instead of reading and processing line by line.
 
 ### Advance Challenge: Export your library and create a Jar file
 
-1. Search on the internet and learn how to use Maven to generate a Jar file so you can port your library to other Java projects.
+1. Search on the internet and learn how to use Maven to generate a Jar file, so you can port your library to other Java
+   projects.
 
    ***Hint***: Use an existing Maven library. Do not re-inventing the wheel!
