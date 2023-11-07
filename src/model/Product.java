@@ -10,10 +10,12 @@ public class Product {
 
     private String tags;
 
-    private float price;
+    private Float price;
 
     private String imageUrl;
 
+    public Product() {
+    }
 
     public Product(String name, String description, String category, String tags, float price, String imageUrl) {
         this.name = name;
@@ -56,11 +58,11 @@ public class Product {
         this.tags = tags;
     }
 
-    public float getPrice() {
+    public Float getPrice() {
         return price;
     }
 
-    public void setPrice(float price) {
+    public void setPrice(Float price) {
         this.price = price;
     }
 
@@ -70,5 +72,17 @@ public class Product {
 
     public void setImageUrl(String imageUrl) {
         this.imageUrl = imageUrl;
+    }
+
+    @Override
+    public String toString() {
+        return "Product{" +
+                "name='" + name + '\'' +
+                ", description='" + description + '\'' +
+                ", category='" + category + '\'' +
+                ", tags='" + tags + '\'' +
+                ", price=" + price +
+                ", imageUrl='" + imageUrl + '\'' +
+                '}';
     }
 }
